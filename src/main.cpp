@@ -5,7 +5,7 @@ int main(int argc, char *argv[])
 {
   // start from 1 to ignore script name; argv[0] will be a name of processing file.
   for (int i = 1; i < argc; i++) {
-    printf ("argv[%i]: %s\n %s\n", i, argv[i], "World");
+    printf ("argv[%i]: %s %s\n", i, argv[i], "World");
   }
   return 0;
 }
